@@ -1,4 +1,6 @@
 # Terminal Hangman
+Based on project idea 0
+
 Termainal hangman is a Python language terminal game.
 
 The users main goal is to guess the word either letter by letter or by guessing the full word before their maximum tries had run out.
