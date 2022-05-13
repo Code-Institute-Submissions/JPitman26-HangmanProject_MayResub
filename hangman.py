@@ -23,7 +23,7 @@ def play(word):
     print("\n")
     while not guessed and tries > 0:
         # Prompts the user to start guessing
-        guess = input("Guess a letter or word: ").upper()
+        guess = input("Guess a letter or word:\n ").upper()
         if len(guess) == 1 and guess.isalpha():
             # Displays if a letter is already guessed
             if guess in guessed_letters:
